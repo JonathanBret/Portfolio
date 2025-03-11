@@ -1,0 +1,23 @@
+.resume-margin{
+    padding: 3rem 6rem;
+    background-color: white;
+}
+
+.resume-container{
+   display: flex;
+   flex-direction: row;
+   gap: 20rem;
+   align-items: center;
+   justify-content: space-around;
+   border: solid 1px #f39f68;
+   box-shadow: 1rem #f39f68;
+   margin: 10%;
+}
+
+.resume-title{
+    color: #523e50;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
