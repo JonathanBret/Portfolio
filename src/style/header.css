@@ -1,0 +1,198 @@
+
+
+.portfolio-header{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 6rem 0 0 0;
+   gap: 20rem;
+
+}
+
+.portfolio-header-nav{
+    width: 100%;
+}
+
+.portfolio-title{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+.portfolio-navigation{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+
+.portfolio-title, h1{
+    color: #523e50;
+    margin: 0;
+}
+
+.portfolio-navigation button{
+    width: 250px;
+    height: 46px;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+    color: #523e50;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    outline: none;
+    padding: 1.2em 1em;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+
+.square {
+    position: relative;
+    margin: 0 10px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+}
+
+.linkedin:hover span:nth-child(1) {
+    border: none;
+    background: #f07e6e;
+}
+
+.twitter:hover span:nth-child(1) {
+    border: none;
+    background: #84cdfa;
+}
+
+.github:hover span:nth-child(1) {
+    border: none;
+    background: #5ad1cd;
+}
+
+.square span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+
+.linkedin:hover span:nth-child(2) {
+    border: none;
+    background: #f07e6e;
+}
+
+.twitter:hover span:nth-child(2) {
+    border: none;
+    background: #84cdfa;
+}
+
+.github:hover span:nth-child(2) {
+    border: none;
+    background: #5ad1cd;
+}
+
+.square span:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
+    transition: 0.5s;
+    animation: animate2 10s linear infinite;
+}
+
+.linkedin:hover span:nth-child(3) {
+    border: none;
+    background: #f07e6e;
+}
+
+.twitter:hover span:nth-child(3) {
+    border: none;
+    background: #84cdfa;
+}
+
+.github:hover span:nth-child(3) {
+    border: none;
+    background: #5ad1cd;
+}
+
+.content {
+    position: relative;
+    padding: 40px 60px;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.content a {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    padding: 6px 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+
+.content a:hover {
+    background: white;
+    color: #333;
+}
+
+.content h2{
+    color: black;
+}
+
+.content p{
+    color: black;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
