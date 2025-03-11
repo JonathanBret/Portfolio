@@ -1,0 +1,54 @@
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .terminal {
+    color: #33ff33;
+    font-family: monospace;
+    text-align: center;
+  }
+  
+  .input-terminal {
+    background: none;
+    color: #33ff33;
+    font-size: 18px;
+    outline: none;
+    caret-color: #33ff33;
+    border: none;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .portfolio {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .terminal button :hover{
+    border-color: #33ff33;
+  }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .light-mode {
+    background-color: #e0fff4;
+    background-image: linear-gradient(180deg, #e0fff4, #ebefff 70%);
+    color: black;
+  }
+
+  
