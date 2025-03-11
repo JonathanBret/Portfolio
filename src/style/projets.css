@@ -1,0 +1,78 @@
+.projets-margin{
+    padding: 3rem 6rem;
+   background-color: white;
+}
+
+.projets-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all-projets{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 750px;
+}
+
+.projets-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    border: 1px solid #b7b7b7;
+    border-radius: 15px; 
+    box-shadow: 10px 10px 60px -4px #c2cdff;
+    height: 360px;
+    width: 90%;
+    margin: 2rem;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1rem; 
+}
+
+.projets-image {
+    width: 100%;
+    height: 90%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+.projets-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.projets-card button {
+   height: 2rem;
+   color: white;
+   width: 80%; 
+   margin-top: auto; 
+   background-color: #333; 
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.projets-card button:hover {
+   background-color: #555; 
+}
+
+.button-more{
+    width: 30%;
+  
+}
+
+.button-projets{
+    height: 20%;
+}
+
