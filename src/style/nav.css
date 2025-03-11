@@ -1,0 +1,21 @@
+.git {
+    display: flex;
+    justify-content: flex-end; 
+    width: auto; 
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-right: 2%;
+  }
+  
+
+.logo-container {
+    margin-left: auto; 
+    margin-right: 5%;
+}
+
+.logo-git {
+    color: white;
+    height: 25px;
+    margin-right: 5%;
+}
