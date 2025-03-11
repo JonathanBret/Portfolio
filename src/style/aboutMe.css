@@ -1,0 +1,33 @@
+.picture img{
+width: 60%;
+height: 100%;
+border-radius: 15px;
+  box-shadow: -5px 5px #f39f68,-10px 10px #f39f68,-15px 15px #f39f68,-20px 20px #f39f68,-25px 25px #f39f68;
+  object-fit: cover;
+}
+
+.about-me{
+    background-color: #ebefff;
+  box-shadow: 0 10px 12px rgba(99,99,99,.2);
+}
+
+.about-me-container {
+    padding: 12rem 8rem 8rem 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.history h1{
+    color: #f39f68;
+    text-decoration: underline;
+    text-decoration-thickness:3px ;
+    margin-bottom: 2rem;
+}
+
+.history{
+    width: 100%;
+}
+
+.history p{
+    text-align: justify;
+}
