@@ -2,12 +2,12 @@
 width: 60%;
 height: 100%;
 border-radius: 15px;
-  box-shadow: -5px 5px #f39f68,-10px 10px #f39f68,-15px 15px #f39f68,-20px 20px #f39f68,-25px 25px #f39f68;
+  box-shadow: -5px 5px #ff5e6c,-10px 10px #ff5e6c,-15px 15px #ff5e6c,-20px 20px #ff5e6c,-25px 25px #ff5e6c;
   object-fit: cover;
 }
 
 .about-me{
-    background-color: #ebefff;
+
   box-shadow: 0 10px 12px rgba(99,99,99,.2);
 }
 
@@ -18,7 +18,7 @@ border-radius: 15px;
 }
 
 .history h1{
-    color: #f39f68;
+    color: #ff5e6c;
     text-decoration: underline;
     text-decoration-thickness:3px ;
     margin-bottom: 2rem;

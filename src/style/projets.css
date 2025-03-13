@@ -29,10 +29,12 @@
     box-shadow: 10px 10px 60px -4px #c2cdff;
     height: 360px;
     width: 90%;
-    margin: 2rem;
+    margin: 1rem 2rem;
     overflow: hidden;
     text-align: center;
-    padding-bottom: 1rem; 
+    padding-bottom: 1.5rem; 
+    gap: 1rem;
+    background-color: black;
 }
 
 .projets-image {
@@ -50,17 +52,20 @@
 }
 
 .projets-card button {
-   height: 2rem;
-   color: white;
-   width: 80%; 
+   height: 2.3rem;
+   width: 100%; 
    margin-top: auto; 
-   background-color: #333; 
-   border: none;
-   border-radius: 5px;
+   background-color: white; 
    cursor: pointer;
    display: flex;
    align-items: center;
    justify-content: center;
+   border-radius: 150px;
+   border: none;
+}
+
+.button-projets{
+    color: black;
 }
 
 .projets-card button:hover {
@@ -69,6 +74,8 @@
 
 .button-more{
     width: 30%;
+    padding: 5px;
+    
   
 }
 
