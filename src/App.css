@@ -14,8 +14,6 @@ html, body, #root {
   flex-direction: column;
   justify-content: flex-start; 
   width: 100%;
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 50%, #ffffff 100%);
 }
 
 .portfolio {
