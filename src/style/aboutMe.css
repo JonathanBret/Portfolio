@@ -2,7 +2,7 @@
 width: 60%;
 height: 100%;
 border-radius: 15px;
-  box-shadow: -5px 5px #ff5e6c,-10px 10px #ff5e6c,-15px 15px #ff5e6c,-20px 20px #ff5e6c,-25px 25px #ff5e6c;
+  box-shadow: -5px 5px #523e50,-10px 10px #523e50,-15px 15px #523e50,-20px 20px #523e50,-25px 25px #523e50;
   object-fit: cover;
 }
 
@@ -17,14 +17,18 @@ border-radius: 15px;
 }
 
 .history h1{
-    color: #ff5e6c;
+    color: #523e50;
     text-decoration: underline;
     text-decoration-thickness:3px ;
     margin-bottom: 2rem;
 }
 
 .history{
+    display: flex;
     width: 100%;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-top:1px solid #523e50 ;
 }
 
 .history p{

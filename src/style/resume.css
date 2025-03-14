@@ -1,5 +1,5 @@
 .resume-margin{
-    padding: 3rem 6rem;
+    padding: 0 6rem 3rem 6rem;
     background-color: white;
 }
 
@@ -9,9 +9,10 @@
    gap: 20rem;
    align-items: center;
    justify-content: space-around;
-   border: solid 1px #f39f68;
    box-shadow: 1rem #f39f68;
    margin: 10%;
+   border-radius: 15px; 
+   box-shadow: 10px 10px 60px -4px #c2cdff;
 }
 
 .resume-title{

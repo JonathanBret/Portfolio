@@ -9,13 +9,13 @@ const Header = () => {
                     <h2>Développeur Full-stack</h2>
                 </div>
                 <div className="portfolio-navigation">
-                    <a href="">
+                    <a href="#history-section">
                         <button>Mon histoire</button>
                     </a>
-                    <a href="">
+                    <a href="#projets-section">
                         <button>Mes projets</button>
                     </a>
-                    <a href="">
+                    <a href="#resume-section">
                         <button>Mon CV</button>
                     </a>
                     <a href="">
@@ -32,8 +32,8 @@ const Header = () => {
             <h2>
                 LinkedIn
             </h2>
-            <p>This is where I network and build my professional portfolio</p>
-            <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank">_adamdipinto</a>
+            <p>C'est ici que je développe mon réseau et saisis de nouvelles opportunités.</p>
+            <a href="https://www.linkedin.com/in/jonathan-bret-a291ba219/" target="_blank">_Jonathan</a>
         </div>
     </div>
         </div>

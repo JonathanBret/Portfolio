@@ -7,14 +7,14 @@ import booki from '../assets/booki.png'
 const Projets = () => {
 return (
     <div className="projets-margin">
-        <div className="projets-container">
+        <div id="projets-section" className="projets-container">
             <div className="projets-text">
                 <h1 className="projets-title">La création commence par la vision</h1>
                 <p>Découvrez mes projets réalisés, où chaque ligne de code reflète ma passion pour l'innovation et mon engagement à offrir des solutions créatives et fonctionnelles.</p>
             </div>
             <div className="all-projets">
                 <div className="projets-card">
-                    <div className='projets-image'>
+                    <div id="kasa" className='projets-image'>
                     <img src={kasa} alt=""></img>
                     </div>
                     <div className='button-more'>
