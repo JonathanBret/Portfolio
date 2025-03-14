@@ -3,6 +3,16 @@
     color: #33ff33;
     font-family: monospace;
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .terminal form{
+    width: 25%;
   }
   
   .input-terminal {
@@ -13,7 +23,9 @@
     caret-color: #33ff33;
     border: none;
     margin-bottom: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
+    width: 100%;
+
   }
   
   
@@ -38,4 +50,18 @@
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 50%, #ffffff 100%);
   }
 
+  .portfolio-header{
+    animation: fade-in-down 1s ease;
+  } 
+
+  @keyframes fade-in-down {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
