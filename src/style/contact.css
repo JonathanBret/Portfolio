@@ -55,10 +55,14 @@
 }
 
 .contact-form p strong{
-    color: rgba(56, 56, 243, 0.882);
+    color: #00f9f1fe;
     font-weight: bold;
 }
 
+.contact-form p{
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
 .contact-form label{
     display: flex;
     flex-direction: column;
@@ -67,5 +71,26 @@
 }
 
 .contact-form{
-    width: 40%;
+    width: 60%;
+}
+
+.contact-form input{
+    width: 45%;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea{
+    background-color: white;
+    min-height: 75px;
+    color: black;
+}
+
+.contact-form input:focus{
+    outline: none;
+
 }

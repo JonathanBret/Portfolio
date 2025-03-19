@@ -18,7 +18,7 @@ const Header = () => {
                     <a href="#resume-section">
                         <button>Mon CV</button>
                     </a>
-                    <a href="">
+                    <a href="#contact-section">
                         <button>Me contacter</button>
                     </a>
                 </div>

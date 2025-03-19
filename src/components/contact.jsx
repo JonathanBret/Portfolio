@@ -26,19 +26,15 @@ const Contact = () => {
                     <p><strong>Besoin d'en savoir plus ?</strong> N'hésitez pas à me contacter, toujours disponible pour des opportunités professionnelles.</p>
                     <form action="https://formspree.io/f/xblgdokl" method="POST">
   <label>
-    Nom:
-    <input type="text" name="name"/>
+    <input type="text" name="name" placeholder='Prénom'/>
   </label>
   <label>
-    Email:
-    <input type="email" name="email"/>
+    <input type="email" name="email" placeholder='Email'/>
   </label>
   <label>
-    Sujet:
-    <input type="text" name="subject"/>
+    <input type="text" name="subject" placeholder='Sujet'/>
   </label>
   <label>
-    Message:
     <textarea name="message"></textarea>
   </label>
   <button type="submit">Envoyer</button>
