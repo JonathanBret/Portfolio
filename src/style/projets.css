@@ -75,7 +75,7 @@
     
 }
 
-.projets-card button {
+.projets-card a {
    height: 2.3rem;
    width: 100%; 
    margin-top: auto; 
@@ -93,7 +93,7 @@
     color: white;
 }
 
-.projets-card button:hover {
+.projets-card a:hover {
    background-color: white; 
    color: black;
    transform: scale(1.1);

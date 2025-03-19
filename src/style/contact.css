@@ -1,0 +1,71 @@
+.contact-margin{
+    margin: 0 6rem 6rem ;
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+
+#contact-section{
+    background-color: white;
+    color: black;
+   
+}
+
+.contact-info h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact-info p{
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.contact-info img{
+    width: 5%;
+    height: 5%;
+}
+
+.contact-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+
+.contact-mail{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+
+.contact-place{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+
+.contact-form form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-form p strong{
+    color: rgba(56, 56, 243, 0.882);
+    font-weight: bold;
+}
+
+.contact-form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contact-form{
+    width: 40%;
+}

@@ -5,6 +5,7 @@ import Header from "../components/header";
 import AboutMe from "../components/aboutMe";
 import Projets from "./projets";
 import Resume from "./resume";
+import Contact from "./contact";
 
 function Portfolio() {
   const [lightOn, setLightOn] = useState(false); 
@@ -55,6 +56,7 @@ useEffect(() => {
           <AboutMe />
           <Projets />
           <Resume />
+          <Contact />
         </div>
       )}
     </div>

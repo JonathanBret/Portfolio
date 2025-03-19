@@ -44,32 +44,53 @@ return (
                     <img src={kasa} alt=""></img>
                     </div>
                     <div className='button-more'>
-                    <button className="button-projets">Voir plus</button>
-                    </div>
+                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                            className="button-projets" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                             Voir plus
+                        </a>
+                </div>
                 </div>
                 <div className="projets-card">
                     <div className='projets-image'>
                     <img src={nina} alt=""></img>
                     </div>
                     <div className='button-more'>
-                    <button className="button-projets">Voir plus</button>
-                    </div>
+                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                            className="button-projets" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                             Voir plus
+                        </a>
+                </div>
+
                 </div>
                 <div className="projets-card">
                     <div className='projets-image'>
                     <img src={sophie} alt=""></img>
                     </div>
                     <div className='button-more'>
-                    <button className="button-projets">Voir plus</button>
-                    </div>
+                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                            className="button-projets" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                             Voir plus
+                        </a>
+                </div>
                 </div>
                 <div className="projets-card">
                     <div className='projets-image'>
                     <img src={booki} alt=""></img>
                     </div>
                     <div className='button-more'>
-                    <button className="button-projets">Voir plus</button>
-                    </div>
+                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                            className="button-projets" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                             Voir plus
+                        </a>
+                </div>
                 </div>
             </div>
 
