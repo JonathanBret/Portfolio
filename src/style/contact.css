@@ -55,7 +55,7 @@
 }
 
 .contact-form p strong{
-    color: #00f9f1fe;
+    color: #523e50;
     font-weight: bold;
 }
 
@@ -88,9 +88,25 @@
     background-color: white;
     min-height: 75px;
     color: black;
+    outline: none;
 }
 
 .contact-form input:focus{
     outline: none;
 
+}
+
+.contact-form button{
+    background-color: #75f8f3;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+    color:#523e50;
+    cursor: pointer;
+    width: 30%;
+    min-height: 45px;
+}
+
+.contact-form button:hover{
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
 }
