@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import '../style/projets.css';
 import kasa from '../assets/Kasa3.png';
-import nina from '../assets/nina.png'
+import nina from '../assets/Nina.png'
 import sophie from '../assets/sophie.png'
 import booki from '../assets/booki.png'
 
