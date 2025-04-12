@@ -44,7 +44,7 @@ return (
                     <img src={kasa} alt=""></img>
                     </div>
                     <div className='button-more'>
-                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                         <a href="https://strong-bonbon-e7a3dc.netlify.app" 
                             className="button-projets" 
                             target="_blank" 
                             rel="noopener noreferrer">
@@ -71,7 +71,7 @@ return (
                     <img src={sophie} alt=""></img>
                     </div>
                     <div className='button-more'>
-                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                         <a href="https://sophie-bluel-ocr.netlify.app" 
                             className="button-projets" 
                             target="_blank" 
                             rel="noopener noreferrer">
@@ -84,7 +84,7 @@ return (
                     <img src={booki} alt=""></img>
                     </div>
                     <div className='button-more'>
-                         <a href="https://jonathanbret.github.io/Projet-5-OCR/" 
+                         <a href="https://papaya-cobbler-2e871f.netlify.app" 
                             className="button-projets" 
                             target="_blank" 
                             rel="noopener noreferrer">
