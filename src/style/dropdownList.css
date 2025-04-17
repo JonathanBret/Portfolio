@@ -1,0 +1,45 @@
+.burger-container {
+    display: none; /* caché par défaut */
+}
+
+.burger-icon {
+    background: none;
+    border: none;
+    color: black; /* Je suppose que tu veux un burger noir ici */
+    z-index: 1001;
+    width: 40px; /* Défini une largeur et une hauteur spécifiques pour l'icône */
+    height: 40px;
+}
+
+.burger-menu {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1100;
+}
+
+.burger-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 👇 Visible uniquement en mobile */
+@media (max-width: 576px) {
+    .burger-container {
+        display: block;
+        position: fixed; /* Utiliser position fixed pour que l'icône reste visible en haut */
+        
+    }
+
+    .burger-icon {
+        color: black; /* Changez la couleur de l'icône */
+        padding-left: 1.2rem;
+    }
+}

@@ -172,3 +172,86 @@ align-items: center;
         transform: rotate(0deg);
     }
 }
+
+@media (max-width: 576px) {
+
+    .portfolio{
+        width: 100vw;
+        max-width: 100%;
+       
+    }
+
+    .portfolio-header{
+        width: 100vw;
+        max-width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        background-color: #75f8f3;
+        padding-bottom: 0.4rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        border: 2px solid red;
+    }
+
+    .portfolio-header-nav{
+       display: grid;
+       place-items: center;
+    
+    }
+
+    .square.linkedin{
+        display: none;
+    }
+
+    .portfolio-navigation{
+        display: none;
+    }
+
+    .portfolio-title{
+        width: 100vw;
+
+    }
+
+    .portfolio-title h1{
+        font-size: 20px;
+    }
+
+    .portfolio-title h2{
+        font-size: 10px;
+    }
+
+    .git {
+        padding-top: 0.4rem;
+    }
+
+    /*.portfolio-header{
+        padding: 0;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       gap: 20px;
+       padding-top: 35%;
+    }
+
+    .portfolio-title h1{
+        font-size: 20px;
+    }
+
+    .portfolio-title h2{
+        font-size: 10px;
+    }
+
+    .portfolio-navigation{
+        gap: 15px;
+    }
+
+    .square.linkedin{
+       height: 80%;
+       width: 80%;
+    }*/
+}

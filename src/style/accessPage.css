@@ -65,3 +65,19 @@
     }
   }
   
+
+  @media (max-width: 576px) {
+    .terminal p{
+      width: 100%;
+    }
+
+    .terminal form{
+      width: 10rem;
+    }
+
+    .terminal{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+  }
